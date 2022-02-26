@@ -62,7 +62,7 @@ export const ClientListComponent =()=> {
                   direction="row"
                   justifyContent="space-between"
                   alignItems="center"
-				  className="p-t-10"
+		  className="p-t-10"
                   key={i}
                 >
                  {data.name}
