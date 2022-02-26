@@ -82,9 +82,12 @@ export const AddClientComponent = (props)=> {
                           name="name"
                           as={TextField}
                           fullWidth
-                          style={{ marginBottom: 40 }}
-                          autoFocus={true}
+                          style={{ marginBottom: 40 }}                         
                           variant="outlined"
+						   inputProps={{                         
+                            autoComplete: "off",
+                            autoFocus: true,
+                          }}
                         />
                       </Grid>
                     </Grid>
