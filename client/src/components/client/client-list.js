@@ -62,9 +62,10 @@ export const ClientListComponent =()=> {
                   direction="row"
                   justifyContent="space-between"
                   alignItems="center"
+				  className="p-t-10"
                   key={i}
                 >
-                  <div className="p-b-10">{data.name}</div>
+                 {data.name}
                   <div>
                     <EditIcon
                       className="point m-r-20"
